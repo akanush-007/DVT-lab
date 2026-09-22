@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<workbook version="18.1" original-version="18.1" source-build="EXP7B-FIFA" source-platform="win">
+  <repository-location derived-from="file:///EXP7B_FIFA_TransactionStyle_Tableau.twb" id="EXP7B-FIFA-TRANSACTION-STYLE" path="/" revision="1.0"/>
+  <datasources>
+    <datasource caption="FIFA World Cup 2026 Player Performance" inline="true" name="fifa" version="18.1">
+      <connection class="textscan" directory="." filename="fifa_world_cup_2026_player_performance(4).csv" header="yes" locale="en_US"/>
+      <column datatype="real" name="[Total Goals]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="SUM([goals])"/>
+      </column>
+      <column datatype="real" name="[Average Player Rating]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="AVG([player_rating])"/>
+      </column>
+      <column datatype="real" name="[Distinct Match Count]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="COUNTD([match_id])"/>
+      </column>
+      <column datatype="real" name="[Player Count]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="COUNTD([player_name])"/>
+      </column>
+      <column datatype="string" name="[Minimum Score Filter]" role="dimension" type="nominal">
+        <calculation class="tableau" formula="IF [performance_score] &gt;= [Minimum Performance Score] THEN &quot;Include&quot; ELSE &quot;Exclude&quot; END"/>
+      </column>
+      <column datatype="string" name="[Selected Measure]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="CASE [Select Measure] WHEN &quot;Total Goals&quot; THEN SUM([goals]) WHEN &quot;Player Count&quot; THEN COUNTD([player_name]) WHEN &quot;Match Count&quot; THEN COUNTD([match_id]) END"/>
+      </column>
+      <column datatype="real" name="[Select Measure]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="0"/>
+      </column>
+      <column datatype="real" name="[Minimum Performance Score]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="70"/>
+      </column>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name="Team Goal Bar Chart">
+      <description>Mapped from Sender Name versus Amount. Uses Team versus SUM(Goals).</description>
+      <view>
+        <rows>[fifa].[team]</rows>
+        <columns>SUM([fifa].[goals])</columns>
+        <mark class="Bar"/>
+      </view>
+    </worksheet>
+    <worksheet name="Match Result Pie Chart">
+      <description>Mapped from Status versus Transaction Count. Uses Match Result versus COUNTD(Match ID).</description>
+      <view>
+        <color>[fifa].[match_result]</color>
+        <angle>COUNTD([fifa].[match_id])</angle>
+        <mark class="Pie"/>
+      </view>
+    </worksheet>
+    <worksheet name="Goal Trend Line Chart">
+      <description>Mapped from Timestamp versus Amount. Uses Match Date versus SUM(Goals).</description>
+      <view>
+        <columns>[fifa].[match_date]</columns>
+        <rows>SUM([fifa].[goals])</rows>
+        <mark class="Line"/>
+      </view>
+    </worksheet>
+    <worksheet name="Selected Measure Chart">
+      <description>Uses the Select Measure parameter to switch between Total Goals, Player Count, and Match Count.</description>
+      <view>
+        <columns>[fifa].[team]</columns>
+        <rows>[fifa].[Selected Measure]</rows>
+        <mark class="Bar"/>
+      </view>
+    </worksheet>
+    <worksheet name="Minimum Score Analysis">
+      <description>Filters players using the Minimum Performance Score parameter.</description>
+      <view>
+        <rows>[fifa].[player_name]</rows>
+        <columns>SUM([fifa].[goals])</columns>
+        <filter>[fifa].[Minimum Score Filter] = "Include"</filter>
+        <mark class="Bar"/>
+      </view>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name="EXP7B FIFA Performance Dashboard">
+      <title>FIFA World Cup 2026 Player Performance Dashboard</title>
+      <zone name="Team Goal Bar Chart"/>
+      <zone name="Match Result Pie Chart"/>
+      <zone name="Goal Trend Line Chart"/>
+      <zone name="Selected Measure Chart"/>
+      <zone name="Minimum Score Analysis"/>
+      <filter field="[fifa].[match_result]"/>
+      <parameter name="Select Measure" values="Total Goals,Player Count,Match Count"/>
+      <parameter name="Minimum Performance Score" default="70" min="0" max="100"/>
+    </dashboard>
+  </dashboards>
+  <stories>
+    <story name="EXP7B FIFA Performance Story">
+      <story-point name="Team Goal Analysis"/>
+      <story-point name="Match Result Distribution"/>
+      <story-point name="Goal Trend"/>
+      <story-point name="Selected Measure Analysis"/>
+      <story-point name="Minimum Score Analysis"/>
+    </story>
+  </stories>
+</workbook>
