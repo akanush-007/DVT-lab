@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<workbook original-version="18.1" source-build="Generated for EXP7B" source-platform="win" version="18.1" xml:base="https://tableau.com">
+  <repository-location derived-from="file:///EXP7B_FIFA_Tableau.twb" id="EXP7B-FIFA" path="/" revision="1.0" />
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <CategoricalColors />
+    <CustomView />
+    <DataOrientation />
+    <DataserverConnections />
+    <DataserverExtracts />
+    <DeviceDesigner />
+    <ExternalMetrics />
+    <Formatting />
+    <MarkAnimation />
+    <MarkAnimationDisplay />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelExtractV3 />
+    <ObjectModelExtractV4 />
+    <ObjectModelExtractV5 />
+    <ObjectModelExtractV6 />
+    <ObjectModelExtractV7 />
+    <ObjectModelExtractV8 />
+    <ObjectModelExtractV9 />
+    <ObjectModelExtractV10 />
+    <ObjectModelExtractV11 />
+    <ObjectModelExtractV12 />
+    <ObjectModelExtractV13 />
+    <ObjectModelExtractV14 />
+    <ObjectModelExtractV15 />
+    <ObjectModelExtractV16 />
+    <ObjectModelExtractV17 />
+    <ObjectModelExtractV18 />
+    <ObjectModelExtractV19 />
+    <ObjectModelExtractV20 />
+    <ObjectModelExtractV21 />
+    <ObjectModelExtractV22 />
+    <ObjectModelExtractV23 />
+    <ObjectModelExtractV24 />
+    <ObjectModelExtractV25 />
+    <ObjectModelExtractV26 />
+    <ObjectModelExtractV27 />
+    <ObjectModelExtractV28 />
+    <ObjectModelExtractV29 />
+    <ObjectModelExtractV30 />
+    <ObjectModelExtractV31 />
+    <ObjectModelExtractV32 />
+    <ObjectModelExtractV33 />
+    <ObjectModelExtractV34 />
+    <ObjectModelExtractV35 />
+    <ObjectModelExtractV36 />
+    <ObjectModelExtractV37 />
+    <ObjectModelExtractV38 />
+    <ObjectModelExtractV39 />
+    <ObjectModelExtractV40 />
+    <ObjectModelExtractV41 />
+    <ObjectModelExtractV42 />
+    <ObjectModelExtractV43 />
+    <ObjectModelExtractV44 />
+    <ObjectModelExtractV45 />
+    <ObjectModelExtractV46 />
+    <ObjectModelExtractV47 />
+    <ObjectModelExtractV48 />
+    <ObjectModelExtractV49 />
+    <ObjectModelExtractV50 />
+    <ObjectModelExtractV51 />
+    <ObjectModelExtractV52 />
+    <ObjectModelExtractV53 />
+    <ObjectModelExtractV54 />
+    <ObjectModelExtractV55 />
+    <ObjectModelExtractV56 />
+    <ObjectModelExtractV57 />
+    <ObjectModelExtractV58 />
+    <ObjectModelExtractV59 />
+    <ObjectModelExtractV60 />
+    <ObjectModelExtractV61 />
+    <ObjectModelExtractV62 />
+    <ObjectModelExtractV63 />
+    <ObjectModelExtractV64 />
+    <ObjectModelExtractV65 />
+    <ObjectModelExtractV66 />
+    <ObjectModelExtractV67 />
+    <ObjectModelExtractV68 />
+    <ObjectModelExtractV69 />
+    <ObjectModelExtractV70 />
+    <ObjectModelExtractV71 />
+    <ObjectModelExtractV72 />
+    <ObjectModelExtractV73 />
+    <ObjectModelExtractV74 />
+    <ObjectModelExtractV75 />
+    <ObjectModelExtractV76 />
+    <ObjectModelExtractV77 />
+    <ObjectModelExtractV78 />
+    <ObjectModelExtractV79 />
+    <ObjectModelExtractV80 />
+    <ObjectModelExtractV81 />
+    <ObjectModelExtractV82 />
+    <ObjectModelExtractV83 />
+    <ObjectModelExtractV84 />
+    <ObjectModelExtractV85 />
+    <ObjectModelExtractV86 />
+    <ObjectModelExtractV87 />
+    <ObjectModelExtractV88 />
+    <ObjectModelExtractV89 />
+    <ObjectModelExtractV90 />
+    <ObjectModelExtractV91 />
+    <ObjectModelExtractV92 />
+    <ObjectModelExtractV93 />
+    <ObjectModelExtractV94 />
+    <ObjectModelExtractV95 />
+    <ObjectModelExtractV96 />
+    <ObjectModelExtractV97 />
+    <ObjectModelExtractV98 />
+    <ObjectModelExtractV99 />
+    <ObjectModelExtractV100 />
+    <ObjectModelExtractV101 />
+    <ObjectModelExtractV102 />
+    <ObjectModelExtractV103 />
+    <ObjectModelExtractV104 />
+    <ObjectModelExtractV105 />
+    <ObjectModelExtractV106 />
+    <ObjectModelExtractV107 />
+    <ObjectModelExtractV108 />
+    <ObjectModelExtractV109 />
+    <ObjectModelExtractV110 />
+    <ObjectModelExtractV111 />
+    <ObjectModelExtractV112 />
+    <ObjectModelExtractV113 />
+    <ObjectModelExtractV114 />
+    <ObjectModelExtractV115 />
+    <ObjectModelExtractV116 />
+    <ObjectModelExtractV117 />
+    <ObjectModelExtractV118 />
+    <ObjectModelExtractV119 />
+    <ObjectModelExtractV120 />
+    <ObjectModelExtractV121 />
+    <ObjectModelExtractV122 />
+    <ObjectModelExtractV123 />
+    <ObjectModelExtractV124 />
+    <ObjectModelExtractV125 />
+    <ObjectModelExtractV126 />
+    <ObjectModelExtractV127 />
+    <ObjectModelExtractV128 />
+    <ObjectModelExtractV129 />
+    <ObjectModelExtractV130 />
+    <ObjectModelExtractV131 />
+    <ObjectModelExtractV132 />
+    <ObjectModelExtractV133 />
+    <ObjectModelExtractV134 />
+    <ObjectModelExtractV135 />
+    <ObjectModelExtractV136 />
+    <ObjectModelExtractV137 />
+    <ObjectModelExtractV138 />
+    <ObjectModelExtractV139 />
+    <ObjectModelExtractV140 />
+    <ObjectModelExtractV141 />
+    <ObjectModelExtractV142 />
+    <ObjectModelExtractV143 />
+    <ObjectModelExtractV144 />
+    <ObjectModelExtractV145 />
+    <ObjectModelExtractV146 />
+    <ObjectModelExtractV147 />
+    <ObjectModelExtractV148 />
+    <ObjectModelExtractV149 />
+    <ObjectModelExtractV150 />
+    <ObjectModelExtractV151 />
+    <ObjectModelExtractV152 />
+    <ObjectModelExtractV153 />
+    <ObjectModelExtractV154 />
+    <ObjectModelExtractV155 />
+    <ObjectModelExtractV156 />
+    <ObjectModelExtractV157 />
+    <ObjectModelExtractV158 />
+    <ObjectModelExtractV159 />
+    <ObjectModelExtractV160 />
+    <ObjectModelExtractV161 />
+    <ObjectModelExtractV162 />
+    <ObjectModelExtractV163 />
+    <ObjectModelExtractV164 />
+    <ObjectModelExtractV165 />
+    <ObjectModelExtractV166 />
+    <ObjectModelExtractV167 />
+    <ObjectModelExtractV168 />
+    <ObjectModelExtractV169 />
+    <ObjectModelExtractV170 />
+    <ObjectModelExtractV171 />
+    <ObjectModelExtractV172 />
+    <ObjectModelExtractV173 />
+    <ObjectModelExtractV174 />
+    <ObjectModelExtractV175 />
+    <ObjectModelExtractV176 />
+    <ObjectModelExtractV177 />
+    <ObjectModelExtractV178 />
+    <ObjectModelExtractV179 />
+    <ObjectModelExtractV180 />
+    <ObjectModelExtractV181 />
+    <ObjectModelExtractV182 />
+    <ObjectModelExtractV183 />
+    <ObjectModelExtractV184 />
+    <ObjectModelExtractV185 />
+    <ObjectModelExtractV186 />
+    <ObjectModelExtractV187 />
+    <ObjectModelExtractV188 />
+    <ObjectModelExtractV189 />
+    <ObjectModelExtractV190 />
+    <ObjectModelExtractV191 />
+    <ObjectModelExtractV192 />
+    <ObjectModelExtractV193 />
+    <ObjectModelExtractV194 />
+    <ObjectModelExtractV195 />
+    <ObjectModelExtractV196 />
+    <ObjectModelExtractV197 />
+    <ObjectModelExtractV198 />
+    <ObjectModelExtractV199 />
+    <ObjectModelExtractV200 />
+    <ObjectModelExtractV201 />
+    <ObjectModelExtractV202 />
+    <ObjectModelExtractV203 />
+    <ObjectModelExtractV204 />
+    <ObjectModelExtractV205 />
+    <ObjectModelExtractV206 />
+    <ObjectModelExtractV207 />
+    <ObjectModelExtractV208 />
+    <ObjectModelExtractV209 />
+    <ObjectModelExtractV210 />
+    <ObjectModelExtractV211 />
+    <ObjectModelExtractV212 />
+    <ObjectModelExtractV213 />
+    <ObjectModelExtractV214 />
+    <ObjectModelExtractV215 />
+    <ObjectModelExtractV216 />
+    <ObjectModelExtractV217 />
+    <ObjectModelExtractV218 />
+    <ObjectModelExtractV219 />
+    <ObjectModelExtractV220 />
+    <ObjectModelExtractV221 />
+    <ObjectModelExtractV222 />
+    <ObjectModelExtractV223 />
+    <ObjectModelExtractV224 />
+    <ObjectModelExtractV225 />
+    <ObjectModelExtractV226 />
+    <ObjectModelExtractV227 />
+    <ObjectModelExtractV228 />
+    <ObjectModelExtractV229 />
+    <ObjectModelExtractV230 />
+    <ObjectModelExtractV231 />
+    <ObjectModelExtractV232 />
+    <ObjectModelExtractV233 />
+    <ObjectModelExtractV234 />
+    <ObjectModelExtractV235 />
+    <ObjectModelExtractV236 />
+    <ObjectModelExtractV237 />
+    <ObjectModelExtractV238 />
+    <ObjectModelExtractV239 />
+    <ObjectModelExtractV240 />
+    <ObjectModelExtractV241 />
+    <ObjectModelExtractV242 />
+    <ObjectModelExtractV243 />
+    <ObjectModelExtractV244 />
+    <ObjectModelExtractV245 />
+    <ObjectModelExtractV246 />
+    <ObjectModelExtractV247 />
+    <ObjectModelExtractV248 />
+    <ObjectModelExtractV249 />
+    <object-id uuid="fifa-datasource">
+      <datasource caption="FIFA World Cup 2026 Player Performance" inline="true" name="fifa" version="18.1">
+        <connection class="textscan" directory="." filename="fifa_world_cup_2026_player_performance(4).csv" header="yes" locale="en_US" />
+        <metadata-records>
+          <metadata-record><remote-name>player_id</remote-name><local-name>player_id</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>0</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>player_name</remote-name><local-name>player_name</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>1</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>age</remote-name><local-name>age</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>2</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>nationality</remote-name><local-name>nationality</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>3</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>team</remote-name><local-name>team</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>4</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>jersey_number</remote-name><local-name>jersey_number</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>5</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>position</remote-name><local-name>position</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>6</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>height_cm</remote-name><local-name>height_cm</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>7</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>weight_kg</remote-name><local-name>weight_kg</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>8</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>preferred_foot</remote-name><local-name>preferred_foot</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>9</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>club_name</remote-name><local-name>club_name</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>10</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>market_value_eur</remote-name><local-name>market_value_eur</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>11</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>match_id</remote-name><local-name>match_id</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>12</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>match_date</remote-name><local-name>match_date</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>13</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>stadium</remote-name><local-name>stadium</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>14</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>city</remote-name><local-name>city</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>15</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>opponent_team</remote-name><local-name>opponent_team</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>16</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>tournament_stage</remote-name><local-name>tournament_stage</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>17</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>match_result</remote-name><local-name>match_result</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>18</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>goals_team</remote-name><local-name>goals_team</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>19</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>goals_opponent</remote-name><local-name>goals_opponent</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>20</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>minutes_played</remote-name><local-name>minutes_played</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>21</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>goals</remote-name><local-name>goals</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>22</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>assists</remote-name><local-name>assists</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>23</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>shots</remote-name><local-name>shots</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>24</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>shots_on_target</remote-name><local-name>shots_on_target</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>25</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>expected_goals_xg</remote-name><local-name>expected_goals_xg</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>26</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>expected_assists_xa</remote-name><local-name>expected_assists_xa</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>27</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>key_passes</remote-name><local-name>key_passes</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>28</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>successful_passes</remote-name><local-name>successful_passes</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>29</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>total_passes</remote-name><local-name>total_passes</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>30</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>pass_accuracy</remote-name><local-name>pass_accuracy</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>31</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>dribbles_attempted</remote-name><local-name>dribbles_attempted</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>32</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>successful_dribbles</remote-name><local-name>successful_dribbles</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>33</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>crosses</remote-name><local-name>crosses</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>34</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>successful_crosses</remote-name><local-name>successful_crosses</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>35</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>tackles</remote-name><local-name>tackles</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>36</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>interceptions</remote-name><local-name>interceptions</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>37</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>clearances</remote-name><local-name>clearances</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>38</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>blocks</remote-name><local-name>blocks</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>39</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>aerial_duels_won</remote-name><local-name>aerial_duels_won</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>40</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>aerial_duels_lost</remote-name><local-name>aerial_duels_lost</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>41</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>recoveries</remote-name><local-name>recoveries</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>42</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>defensive_actions</remote-name><local-name>defensive_actions</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>43</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>fouls_committed</remote-name><local-name>fouls_committed</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>44</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>fouls_suffered</remote-name><local-name>fouls_suffered</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>45</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>yellow_cards</remote-name><local-name>yellow_cards</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>46</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>red_cards</remote-name><local-name>red_cards</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>47</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>offsides</remote-name><local-name>offsides</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>48</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>saves</remote-name><local-name>saves</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>49</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>save_percentage</remote-name><local-name>save_percentage</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>50</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>punches</remote-name><local-name>punches</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>51</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>clean_sheet</remote-name><local-name>clean_sheet</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>52</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>goals_conceded</remote-name><local-name>goals_conceded</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>53</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>penalty_saves</remote-name><local-name>penalty_saves</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>54</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>distance_covered_km</remote-name><local-name>distance_covered_km</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>55</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>sprint_distance_km</remote-name><local-name>sprint_distance_km</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>56</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>top_speed_kmh</remote-name><local-name>top_speed_kmh</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>57</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>accelerations</remote-name><local-name>accelerations</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>58</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>decelerations</remote-name><local-name>decelerations</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>59</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>stamina_score</remote-name><local-name>stamina_score</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>60</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>player_rating</remote-name><local-name>player_rating</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>61</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>performance_score</remote-name><local-name>performance_score</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>62</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>offensive_contribution</remote-name><local-name>offensive_contribution</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>63</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>defensive_contribution</remote-name><local-name>defensive_contribution</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>64</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>possession_impact</remote-name><local-name>possession_impact</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>65</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>pressure_resistance</remote-name><local-name>pressure_resistance</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>66</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>creativity_score</remote-name><local-name>creativity_score</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>67</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>consistency_score</remote-name><local-name>consistency_score</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>68</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>clutch_performance_score</remote-name><local-name>clutch_performance_score</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>69</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>total_goals_tournament</remote-name><local-name>total_goals_tournament</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>70</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>total_assists_tournament</remote-name><local-name>total_assists_tournament</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>71</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>total_minutes_tournament</remote-name><local-name>total_minutes_tournament</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>72</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>player_of_match_awards</remote-name><local-name>player_of_match_awards</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>73</ordinal><family>fifa</family></metadata-record><metadata-record><remote-name>tournament_rating</remote-name><local-name>tournament_rating</local-name><parent-name>[fifa]</parent-name><remote-type>string</remote-type><ordinal>74</ordinal><family>fifa</family></metadata-record>
+        </metadata-records>
+        <column datatype="real" name="[Total Goals]" role="measure" type="quantitative">
+          <calculation class="tableau" formula="SUM([goals])" />
+        </column>
+        <column datatype="real" name="[Average Rating]" role="measure" type="quantitative">
+          <calculation class="tableau" formula="AVG([player_rating])" />
+        </column>
+        <column datatype="real" name="[Minimum Score Filter]" role="dimension" type="ordinal">
+          <calculation class="tableau" formula="[performance_score] &gt;= 70" />
+        </column>
+      </datasource>
+    </object-id>
+  </datasources>
+  <worksheets>
+    <worksheet name="Team Goals Bar Chart">
+      <table>
+        <view>
+          <datasources><datasource caption="FIFA World Cup 2026 Player Performance" name="fifa" /></datasources>
+          <datasource-dependencies datasource="fifa">
+            <column datatype="string" name="[team]" role="dimension" type="nominal" />
+            <column datatype="real" name="[goals]" role="measure" type="quantitative" />
+          </datasource-dependencies>
+          <manual-sort />
+        </view>
+        <style><style-rule element="mark"><format attr="mark-labels-show" value="true" /></style-rule></style>
+      </table>
+    </worksheet>
+    <worksheet name="Distribution Pie Chart">
+      <table>
+        <view>
+          <datasources><datasource caption="FIFA World Cup 2026 Player Performance" name="fifa" /></datasources>
+          <datasource-dependencies datasource="fifa">
+            <column datatype="string" name="[match_result]" role="dimension" type="nominal" />
+          </datasource-dependencies>
+        </view>
+      </table>
+    </worksheet>
+    <worksheet name="Performance Trend Line Chart">
+      <table>
+        <view>
+          <datasources><datasource caption="FIFA World Cup 2026 Player Performance" name="fifa" /></datasources>
+          <datasource-dependencies datasource="fifa">
+            <column datatype="string" name="[player_name]" role="dimension" type="nominal" />
+            <column datatype="real" name="[goals]" role="measure" type="quantitative" />
+          </datasource-dependencies>
+        </view>
+      </table>
+    </worksheet>
+    <worksheet name="Minimum Score Analysis">
+      <table>
+        <view>
+          <datasources><datasource caption="FIFA World Cup 2026 Player Performance" name="fifa" /></datasources>
+          <datasource-dependencies datasource="fifa">
+            <column datatype="string" name="[team]" role="dimension" type="nominal" />
+            <column datatype="real" name="[performance_score]" role="measure" type="quantitative" />
+          </datasource-dependencies>
+        </view>
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder="true" name="EXP7B FIFA Performance Dashboard">
+      <layout-options>
+        <title>
+          <formatted-text><run fontcolor="#000000">FIFA World Cup 2026 Player Performance Dashboard</run></formatted-text>
+        </title>
+      </layout-options>
+      <zones>
+        <zone name="Team Goals Bar Chart" />
+        <zone name="Distribution Pie Chart" />
+        <zone name="Performance Trend Line Chart" />
+        <zone name="Minimum Score Analysis" />
+      </zones>
+    </dashboard>
+  </dashboards>
+  <stories>
+    <story name="EXP7B FIFA Performance Story">
+      <story-points>
+        <story-point name="Team Goal Analysis" />
+        <story-point name="Distribution Analysis" />
+        <story-point name="Performance Trend" />
+        <story-point name="Minimum Score Analysis" />
+      </story-points>
+    </story>
+  </stories>
+</workbook>
